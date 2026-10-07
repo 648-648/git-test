@@ -1,0 +1,16 @@
+# 用来验证 .gitignore 是否生效：这个文件不该出现在仓库里
+secret.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+Thumbs.db
+desktop.ini
